@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+
+    background-color: #7e4949;
+
+    color: rgb(207, 207, 221);
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #00adb5;
+}
+
+
+/* Home */
+
+#home {
+    min-height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: #ddd3d7;
+}
+
+.home-content h1 {
+    font-size: 55px;
+    margin: 10px 0;
+}
+
+.home-content h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 12px 25px;
+
+    background-color: #00adb5;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+}
+
+
+/* Sections */
+
+section {
+    padding: 80px 10%;
+
+    min-height: 50vh;
+}
+
+section h2 {
+    text-align: center;
+
+    margin-bottom: 40px;
+
+    font-size: 35px;
+}
+
+
+/* Skills */
+
+.skills-container {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.skill {
+    padding: 15px 30px;
+
+    border: 1px solid #cacad8;
+
+    border-radius: 8px;
+
+    background-color: #785656;
+}
+
+
+/* Projects */
+
+.project-card {
+    max-width: 700px;
+
+    margin: auto;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    margin-bottom: 15px;
+}
+
+
+/* Education */
+
+.education-card {
+    max-width: 700px;
+
+    margin: auto;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    background-color: #467e55;
+}
+
+
+/* Contact */
+
+#contact {
+    text-align: center;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 20px;
+
+    text-align: center;
+
+    background-color: #111;
+
+    color: white;
+}
+
+.profile-image {
+    margin-bottom: 15px;
+}
+
+.profile-image img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #00adb5;
+    display: block;
+    margin: 0 auto 20px;
+}
